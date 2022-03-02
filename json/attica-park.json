@@ -83,24 +83,6 @@
   ],
   "UEs": [
     {
-      "name": "UE4",
-      "description": "Dolphin pool perimeter",
-      "gNB_id": 1,
-      "Cell_id": 3,
-      "ip_address_v4": "10.0.0.4",
-      "ip_address_v6": "::4",
-      "mac_address": "22-00-00-00-00-04",
-      "dnn": "province1.mnc01.mcc202.gprs",
-      "mcc": 202,
-      "mnc": 1,
-      "external_identifier": "10004@domain.com",
-      "speed": "LOW",
-      "supi": "202010000000004",
-      "latitude": 37.982597,
-      "longitude": 23.909066,
-      "path_id": 2
-    },
-    {
       "name": "UE1",
       "description": "Perimeter patrolling 1",
       "gNB_id": 1,
@@ -114,27 +96,9 @@
       "external_identifier": "10001@domain.com",
       "speed": "LOW",
       "supi": "202010000000001",
-      "latitude": 37.97953,
-      "longitude": 23.910886,
+      "latitude": 37.978985,
+      "longitude": 23.908996,
       "path_id": 1
-    },
-    {
-      "name": "UE7",
-      "description": "South - North - South walkthrough",
-      "gNB_id": 1,
-      "Cell_id": 6,
-      "ip_address_v4": "10.0.0.7",
-      "ip_address_v6": "::7",
-      "mac_address": "22-00-00-00-00-07",
-      "dnn": "province1.mnc01.mcc202.gprs",
-      "mcc": 202,
-      "mnc": 1,
-      "external_identifier": "10007@domain.com",
-      "speed": "HIGH",
-      "supi": "202010000000007",
-      "latitude": 37.981054,
-      "longitude": 23.908142,
-      "path_id": 5
     },
     {
       "name": "UE3",
@@ -150,27 +114,9 @@
       "external_identifier": "10003@domain.com",
       "speed": "HIGH",
       "supi": "202010000000003",
-      "latitude": 37.980541,
-      "longitude": 23.905646,
+      "latitude": 37.978415,
+      "longitude": 23.91035,
       "path_id": 1
-    },
-    {
-      "name": "UE5",
-      "description": "Center area walkthrough",
-      "gNB_id": 1,
-      "Cell_id": 6,
-      "ip_address_v4": "10.0.0.5",
-      "ip_address_v6": "::5",
-      "mac_address": "22-00-00-00-00-05",
-      "dnn": "province1.mnc01.mcc202.gprs",
-      "mcc": 202,
-      "mnc": 1,
-      "external_identifier": "10005@domain.com",
-      "speed": "LOW",
-      "supi": "202010000000005",
-      "latitude": 37.980641,
-      "longitude": 23.907674,
-      "path_id": 3
     },
     {
       "name": "UE2",
@@ -186,9 +132,45 @@
       "external_identifier": "10002@domain.com",
       "speed": "HIGH",
       "supi": "202010000000002",
-      "latitude": 37.979619,
-      "longitude": 23.907633,
+      "latitude": 37.979642,
+      "longitude": 23.907583,
       "path_id": 1
+    },
+    {
+      "name": "UE4",
+      "description": "Dolphin pool perimeter",
+      "gNB_id": 1,
+      "Cell_id": 3,
+      "ip_address_v4": "10.0.0.4",
+      "ip_address_v6": "::4",
+      "mac_address": "22-00-00-00-00-04",
+      "dnn": "province1.mnc01.mcc202.gprs",
+      "mcc": 202,
+      "mnc": 1,
+      "external_identifier": "10004@domain.com",
+      "speed": "LOW",
+      "supi": "202010000000004",
+      "latitude": 37.982656,
+      "longitude": 23.909549,
+      "path_id": 2
+    },
+    {
+      "name": "UE5",
+      "description": "Center area walkthrough",
+      "gNB_id": 1,
+      "Cell_id": 6,
+      "ip_address_v4": "10.0.0.5",
+      "ip_address_v6": "::5",
+      "mac_address": "22-00-00-00-00-05",
+      "dnn": "province1.mnc01.mcc202.gprs",
+      "mcc": 202,
+      "mnc": 1,
+      "external_identifier": "10005@domain.com",
+      "speed": "LOW",
+      "supi": "202010000000005",
+      "latitude": 37.981003,
+      "longitude": 23.907145,
+      "path_id": 3
     },
     {
       "name": "UE6",
@@ -204,9 +186,27 @@
       "external_identifier": "10006@domain.com",
       "speed": "HIGH",
       "supi": "202010000000006",
-      "latitude": 37.982099,
-      "longitude": 23.907954,
+      "latitude": 37.981973,
+      "longitude": 23.909118,
       "path_id": 4
+    },
+    {
+      "name": "UE7",
+      "description": "South - North - South walkthrough",
+      "gNB_id": 1,
+      "Cell_id": 6,
+      "ip_address_v4": "10.0.0.7",
+      "ip_address_v6": "::7",
+      "mac_address": "22-00-00-00-00-07",
+      "dnn": "province1.mnc01.mcc202.gprs",
+      "mcc": 202,
+      "mnc": 1,
+      "external_identifier": "10007@domain.com",
+      "speed": "HIGH",
+      "supi": "202010000000007",
+      "latitude": 37.980497,
+      "longitude": 23.909378,
+      "path_id": 5
     }
   ],
   "paths": [
@@ -221,6 +221,7 @@
         "longitude": 23.910394
       },
       "color": "#3399ff",
+      "id": 1,
       "points": [
         {
           "latitude": 37.978562,
@@ -7287,6 +7288,7 @@
         "longitude": 23.909001
       },
       "color": "#3399ff",
+      "id": 2,
       "points": [
         {
           "latitude": 37.982343,
@@ -7965,6 +7967,7 @@
         "longitude": 23.907748
       },
       "color": "#3399ff",
+      "id": 3,
       "points": [
         {
           "latitude": 37.980627,
@@ -9047,6 +9050,7 @@
         "longitude": 23.911063
       },
       "color": "#3399ff",
+      "id": 4,
       "points": [
         {
           "latitude": 37.980354,
@@ -12325,6 +12329,7 @@
         "longitude": 23.907874
       },
       "color": "#3399ff",
+      "id": 5,
       "points": [
         {
           "latitude": 37.979796,
@@ -16539,32 +16544,32 @@
   ],
   "ue_path_association": [
     {
-      "supi": "202010000000004",
-      "path": 2
-    },
-    {
       "supi": "202010000000001",
       "path": 1
-    },
-    {
-      "supi": "202010000000007",
-      "path": 5
     },
     {
       "supi": "202010000000003",
       "path": 1
     },
     {
-      "supi": "202010000000005",
-      "path": 3
-    },
-    {
       "supi": "202010000000002",
       "path": 1
     },
     {
+      "supi": "202010000000004",
+      "path": 2
+    },
+    {
+      "supi": "202010000000005",
+      "path": 3
+    },
+    {
       "supi": "202010000000006",
       "path": 4
+    },
+    {
+      "supi": "202010000000007",
+      "path": 5
     }
   ]
 }
